@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.MenuLogin.frmMenuLogin">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1000" height="600"/>
+    </constraints>
+    <properties>
+      <minimumSize width="500" height="200"/>
+      <preferredSize width="500" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="cccb6" binding="jpaMenuLogin" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-11184566"/>
+          <minimumSize width="200" height="135"/>
+          <preferredSize width="350" height="335"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ecc2d" class="javax.swing.JPasswordField" binding="txtPassword">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="cdd7b" class="javax.swing.JLabel" binding="lvlContraseña">
+            <constraints>
+              <grid row="2" column="0" row-span="7" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-1050113"/>
+              <icon value="password.png"/>
+              <text value="Contraseña:"/>
+            </properties>
+          </component>
+          <component id="72ffe" class="javax.swing.JLabel" binding="lvlUsuario">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1050113"/>
+              <font size="14"/>
+              <foreground color="-1050113"/>
+              <icon value="user.png"/>
+              <text value="Usuario:"/>
+            </properties>
+          </component>
+          <component id="301a2" class="javax.swing.JTextField" binding="txtUsuario">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="97329" class="javax.swing.JButton" binding="btnLogin">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="log-in.png"/>
+              <label value="Login"/>
+              <text value="Login"/>
+            </properties>
+          </component>
+          <component id="3dc5" class="javax.swing.JButton" binding="btnRegistro">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="customer.png"/>
+              <text value="Registrarse"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

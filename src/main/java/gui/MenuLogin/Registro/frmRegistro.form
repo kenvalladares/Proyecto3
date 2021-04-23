@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.MenuLogin.Registro.frmRegistro">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="6cd71" binding="jpaRegistro" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-11184566"/>
+          <minimumSize width="350" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="b21ea" binding="jpaIzquierdo" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11184566"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b49a4" class="javax.swing.JLabel" binding="lvlUsuario">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1050113"/>
+                  <foreground color="-1050113"/>
+                  <icon value="user.png"/>
+                  <text value="Usuario:"/>
+                </properties>
+              </component>
+              <component id="9a0f3" class="javax.swing.JLabel" binding="lvlContraseña">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1050113"/>
+                  <icon value="password.png"/>
+                  <text value="Contraseña:"/>
+                </properties>
+              </component>
+              <component id="5764f" class="javax.swing.JLabel" binding="lvlConfirmarContraseña">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1050113"/>
+                  <icon value="confirmarpassword.png"/>
+                  <text value="Confirmar Contraseña"/>
+                </properties>
+              </component>
+              <component id="507c8" class="javax.swing.JLabel" binding="lvlNombre">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1050113"/>
+                  <icon value="tarjeta-de-identificacion.png"/>
+                  <text value="Nombre"/>
+                </properties>
+              </component>
+              <component id="f2023" class="javax.swing.JLabel" binding="lvlCorreo">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1050113"/>
+                  <icon value="email.png"/>
+                  <text value="Correo:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="edfb3" binding="jpaDerecho" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11184566"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9e4a8" class="javax.swing.JTextField" binding="txtUsuario">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="bc6a7" class="javax.swing.JPasswordField" binding="txtPassword">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="afdce" class="javax.swing.JPasswordField" binding="txtConfirmaPassword">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="6e6f8" class="javax.swing.JTextField" binding="txtNombre">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="a6f8e" class="javax.swing.JTextField" binding="txtCorreo">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="dd62a" binding="jpaInferior" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-11184566"/>
+          <preferredSize width="200" height="80"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a0a45" class="javax.swing.JButton" binding="registrarButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="customer.png"/>
+              <text value="Registrar"/>
+            </properties>
+          </component>
+          <component id="53a41" class="javax.swing.JButton" binding="btnAtras">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Go-back-icon.png"/>
+              <text value="Atras"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

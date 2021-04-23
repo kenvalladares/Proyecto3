@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.MenuLogin.MenuPrincipal.MenuRestaurante.MenuBebidas.Submenu.MenuRefrescosNaturales.frmRefrescosNaturales">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="637" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="800" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="933b3" binding="jpaMenuRefrescosNaturales" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-11184566"/>
+          <preferredSize width="800" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="6ba9c" binding="jpaSuperior" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11184566"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="91aa4" class="javax.swing.JButton" binding="btnAñadir">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Save-24x24.png"/>
+                  <text value="Añadir"/>
+                </properties>
+              </component>
+              <component id="1e3e8" class="javax.swing.JButton" binding="btnInformacion">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Information-Search-24x24.png"/>
+                  <text value="Informacion"/>
+                </properties>
+              </component>
+              <component id="18fff" class="javax.swing.JButton" binding="btnVerOrden">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <actionCommand value="Ver Refrescos"/>
+                  <label value="Ver Orden"/>
+                  <text value="Ver Orden"/>
+                </properties>
+              </component>
+              <component id="d50a9" class="javax.swing.JButton" binding="btnTerminarCompra">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Terminar Compra"/>
+                </properties>
+              </component>
+              <component id="6fa42" class="javax.swing.JButton" binding="btnAtras">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Go-back-icon.png"/>
+                  <text value="Atras"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="914cb">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <grid id="68d11" binding="jpaIzquierdo" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11184566"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4e743" class="javax.swing.JRadioButton" binding="rbtHorchata">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                  <enabled value="true"/>
+                  <font size="15"/>
+                  <foreground color="-1050113"/>
+                  <text value="Horchata"/>
+                </properties>
+              </component>
+              <component id="bf0df" class="javax.swing.JRadioButton" binding="rbtJamaica">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                  <font size="15"/>
+                  <foreground color="-1050113"/>
+                  <text value="Jamaica"/>
+                </properties>
+              </component>
+              <component id="e3b5d" class="javax.swing.JRadioButton" binding="rbtLimonada">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                  <font size="15"/>
+                  <foreground color="-1050113"/>
+                  <text value="Limonada"/>
+                </properties>
+              </component>
+              <component id="bf69e" class="javax.swing.JRadioButton" binding="rbtMaracuya">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                  <font size="15"/>
+                  <foreground color="-1050113"/>
+                  <text value="Maracuya"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="6593" class="javax.swing.JTextArea" binding="txaLista">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-11184566"/>
+              <font size="15" style="1"/>
+              <foreground color="-1050113"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="4e743"/>
+      <member id="bf0df"/>
+      <member id="e3b5d"/>
+      <member id="bf69e"/>
+      <member id="9d5d1"/>
+    </group>
+  </buttonGroups>
+</form>

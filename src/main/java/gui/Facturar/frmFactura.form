@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.Facturar.frmFactura">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="577" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="1000" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="81d91" binding="jpaFactura" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-11184566"/>
+          <preferredSize width="1000" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="77910" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11184566"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="10350" class="javax.swing.JButton" binding="btnPagar">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2499890"/>
+                  <icon value="Pay-Per-Click-icon (1).png"/>
+                  <text value="Pagar"/>
+                </properties>
+              </component>
+              <component id="16d7f" class="javax.swing.JButton" binding="btnMenuPrincipal">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2499890"/>
+                  <icon value="menu.png"/>
+                  <name value=""/>
+                  <text value="Menu Principal"/>
+                </properties>
+              </component>
+              <component id="bea4f" class="javax.swing.JButton" binding="btnSalir">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2499890"/>
+                  <icon value="Exit.png"/>
+                  <text value="Salir"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="8bdff">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <grid id="76534" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11184566"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a4c16" class="javax.swing.JRadioButton" binding="btnTarjetaCredito">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                  <font size="15" style="1"/>
+                  <foreground color="-1050113"/>
+                  <icon value="credit-cards-icon1.png"/>
+                  <text value="Tarjeta de Credito"/>
+                </properties>
+              </component>
+              <component id="4880" class="javax.swing.JRadioButton" binding="btnTarjetaDebito">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                  <font size="15" style="1"/>
+                  <foreground color="-1050113"/>
+                  <icon value="credit-card-icon.png"/>
+                  <text value="Tarjeta de Debito"/>
+                </properties>
+              </component>
+              <component id="c0718" class="javax.swing.JRadioButton" binding="btnEfectivo">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                  <font size="15" style="1"/>
+                  <foreground color="-1050113"/>
+                  <icon value="money64.png"/>
+                  <text value="Efectivo"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="598c2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="c1918" binding="sclPanDatos">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c3632" class="javax.swing.JTable" binding="tblDatos">
+                    <constraints/>
+                    <properties>
+                      <background color="-11184566"/>
+                      <foreground color="-1050113"/>
+                      <gridColor color="-11184566"/>
+                      <selectionForeground color="-11184566"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="dc16d" class="javax.swing.JLabel" binding="lvlTotalPagar">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-11184566"/>
+                  <font size="20"/>
+                  <foreground color="-16777216"/>
+                  <text value="Total+ISV:"/>
+                </properties>
+              </component>
+              <component id="6d9d5" class="javax.swing.JTextArea" binding="txtTotalPagar">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <caretColor color="-1050113"/>
+                  <focusable value="true"/>
+                  <font size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="c0718"/>
+      <member id="4880"/>
+      <member id="a4c16"/>
+    </group>
+  </buttonGroups>
+</form>

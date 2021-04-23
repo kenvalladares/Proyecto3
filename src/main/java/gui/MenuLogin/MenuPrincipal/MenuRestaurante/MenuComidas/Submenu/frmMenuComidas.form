@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.MenuLogin.MenuPrincipal.MenuRestaurante.MenuComidas.Submenu.frmMenuComidas">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="-8" width="1078" height="897"/>
+    </constraints>
+    <properties>
+      <minimumSize width="1000" height="600"/>
+      <preferredSize width="1000" height="1000"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9484c" binding="jpaComidas" layout-manager="GridLayoutManager" row-count="11" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-11184566"/>
+          <preferredSize width="1000" height="1000"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7ed4e" class="javax.swing.JButton" binding="btnPizzas">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="1169" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Pizzas"/>
+            </properties>
+          </component>
+          <component id="4b232" class="javax.swing.JButton" binding="btnPastas">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="1169" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Pastas"/>
+            </properties>
+          </component>
+          <component id="b4690" class="javax.swing.JButton" binding="btnSopas">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="1169" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Sopas"/>
+            </properties>
+          </component>
+          <component id="affed" class="javax.swing.JButton" binding="btnEnsaladas">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="1169" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Ensaladas"/>
+            </properties>
+          </component>
+          <component id="47f6" class="javax.swing.JButton" binding="btnAtras">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="1169" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <icon value="Go-back-icon.png"/>
+              <text value="Atras"/>
+            </properties>
+          </component>
+          <component id="f335b" class="javax.swing.JLabel" binding="lvlImgPizza">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="pizza.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4b8b7" class="javax.swing.JLabel" binding="lvlImgPastas">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="spaguetti.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="91c01" class="javax.swing.JLabel" binding="lvlImgSopas">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="soup.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="54dd3" class="javax.swing.JButton" binding="btnHamburguesas">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="1169" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Hamburguesas"/>
+            </properties>
+          </component>
+          <component id="19ebc" class="javax.swing.JLabel" binding="lvlImgHamburguesa">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="fast-food.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7350d" class="javax.swing.JLabel" binding="lvlImgSalad">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="salad.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
